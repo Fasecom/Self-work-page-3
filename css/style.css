@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(196, 137, 70);
+}
+.wrapper {
+    background: rgb(255, 255, 255);
+    width: 800px;
+    margin: 20px auto auto;
+}
+header {
+    padding-top: 1px;
+}
+.container {
+    display: flex;
+}
+main {
+    background: rgb(255, 255, 255);
+    width: 660px;
+    padding-inline: 20px;
+}
+.right {
+    width: 420px;
+    margin-left: 20px;
+    padding-inline: 20px;
+}
+footer {
+    padding: 30px 0;
+}
+.footer2 {
+    text-align: center;
+    background: rgb(154, 221, 159);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font: 14px Arial;
+}
+.block {
+    margin: 20px 0 0 20px;
+}
+.sitename {
+    width: 800px;
+    margin: 20px auto auto auto;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding-left: 30px;
+    font: 30px Arial;
+    font-weight: bolder;
+    color: white;
+}
+.headnav {
+    display: flex;
+    width: 757px;
+    background: black;
+}
+.headnav a {
+    padding-block: 20px;
+    padding-inline: 48px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font: 15px Arial;
+}
+.headnav a:hover, nav a:active {
+    background: rgb(79, 78, 94)
+}
+main h1 {
+    font: 26px Arial;
+    color: rgb(175, 123, 63);
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+main h2 {
+    font: 10px "Times New Roman";
+    margin-top: 0px;
+}
+main p {
+    margin: 30px 0;
+    text-align: justify;
+    font: 15px Arial;
+    line-height: 1.8;
+}
+main a {
+    text-decoration: none;
+    color: rgb(104, 173, 109);
+}
+img {
+    margin-top:20px;
+    width: 757px;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(104, 173, 109);
+}
+.minepanel {
+    background-color: rgb(218, 208, 200);
+    margin-top: 20px;
+    padding: 1px 10px 10px 10px;
+}
+.navright a {
+    color: rgb(104, 173, 109);
+    display:block;
+    margin-block: 10px;
+    margin-inline: 5px;
+    font: 15px Arial;
+}
+.minepanelh1 {
+    font: 20px Arial;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(80, 160, 180);
+    color: white;
+}
+.minepanel p {
+    font: 15px Arial;
+    line-height: 1.8;
+    margin-inline: 5px;
+}
